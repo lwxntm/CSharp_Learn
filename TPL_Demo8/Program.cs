@@ -4,6 +4,7 @@ namespace TPL_Demo8
 {
     class Program
     {
+        //共享数据访问：互斥加锁
         static void Main(string[] args)
         {
             for (int i = 0; i < 10; i++)
